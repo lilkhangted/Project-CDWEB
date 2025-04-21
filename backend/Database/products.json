@@ -1,0 +1,272 @@
+[
+    {
+      "id": "BEARHT0001",
+      "name": "Gấu Bông Teddy Classic",
+      "price": 250000,
+      "description": "Gấu bông Teddy lông mịn, mềm mại, phù hợp làm quà tặng.",
+      "size": "50cm",
+      "soluong": 1,
+      "image": "teddy_classic.png"
+    },
+    {
+      "id": "BEARHT0002",
+      "name": "Gấu Bông Panda",
+      "price": 300000,
+      "description": "Gấu bông gấu trúc đáng yêu, lông nhung mịn.",
+      "size": "60cm",
+      "soluong": 10,
+      "image": "panda_bear.jpg"
+    },
+    {
+      "id": "BREARHH0003",
+      "name": "Gấu Bông Brown Line",
+      "price": 320000,
+      "description": "Gấu Brown đáng yêu từ Line Friends, chất liệu cao cấp.",
+      "size": "45cm",
+      "soluong": 100,
+      "image": "brown_line.jpg"
+    },
+    {
+      "id": "BEARHH0004",
+      "name": "Gấu Bông Cony Line",
+      "price": 310000,
+      "description": "Thỏ Cony trắng đáng yêu, gương mặt vui vẻ.",
+      "size": "50cm",
+      "soluong": 31,
+      "image": "cony.webp"
+    },
+    {
+      "id": "BEARHH0005",
+      "name": "Gấu Bông Stitch",
+      "price": 350000,
+      "description": "Gấu bông Stitch xanh dương siêu dễ thương.",
+      "size": "55cm",
+      "soluong": 354,
+      "image": "stitch.jpg"
+    },
+    {
+      "id": "BEARHH0006",
+      "name": "Gấu Bông Mèo Kitty",
+      "price": 280000,
+      "description": "Hello Kitty với chiếc nơ hồng, thích hợp cho các bé gái.",
+      "size": "40cm",
+      "soluong": 44,
+      "image": "hello_kitty.jpg"
+    },
+    {
+      "_id": "BEARHH0007",
+      "name": "Gấu Bông Totoro",
+      "price": 400000,
+      "description": "Gấu bông Totoro siêu bự, mềm mại ôm cực thích.",
+      "size": "70cm",
+      "soluong": 55,
+      "image": "totoro.jpg"
+    },
+    {
+      "_id": "BEARHH0008",
+      "name": "Gấu Bông Pikachu",
+      "price": 330000,
+      "description": "Pikachu dễ thương, quà tặng lý tưởng cho fan Pokemon.",
+      "size": "50cm",
+      "soluong": 23,
+      "image": "pikachu.jpg"
+    },
+    {
+      "_id": "BEARHH0009",
+      "name": "Gấu Bông Doremon",
+      "price": 360000,
+      "description": "Doremon xanh với chiếc túi thần kỳ.",
+      "size": "60cm",
+      "soluong": 49,
+      "image": "doremon.webp"
+    },
+    {
+      "id": "BEARHT0010",
+      "name": "Gấu Bông Gấu Bắc Cực",
+      "price": 270000,
+      "description": "Gấu bông trắng tinh khôi, thân thiện và đáng yêu.",
+      "size": "50cm",
+      "soluong": 40,
+      "image": "polar_bear.jpg"
+    },
+    {
+      "_id": "BEARHT0011",
+      "name": "Gấu Bông Chó Corgi",
+      "price": 310000,
+      "description": "Gấu bông hình chú chó Corgi béo ú dễ thương.",
+      "size": "55cm",
+      "soluong": 245,
+      "image": "corgi.jpg"
+    },
+    {
+      "id": "BEARHT0012",
+      "name": "Gấu Bông Vịt Vàng",
+      "price": 290000,
+      "description": "Chú vịt vàng đáng yêu, mềm mại.",
+      "size": "45cm",
+      "soluong": 35,
+      "image": "duck.jpg"
+    },
+    {
+      "id": "BEARHT0013",
+      "name": "Gấu Bông Cá Mập",
+      "price": 370000,
+      "description": "Gấu bông cá mập xanh ngầu nhưng đáng yêu.",
+      "size": "65cm",
+      "soluong": 34,
+      "image": "shark.webp"
+    },
+    {
+      "id": "BEARHT0014",
+      "name": "Gấu Bông Ếch Xanh",
+      "price": 290000,
+      "description": "Gấu bông hình chú ếch dễ thương, phù hợp ôm khi ngủ.",
+      "size": "50cm",
+      "soluong": 61,
+      "image": "frog.avif"
+    },
+    {
+      "id": "BEARHT0015",
+      "name": "Gấu Bông Lợn Hồng",
+      "price": 280000,
+      "description": "Lợn hồng đáng yêu với thiết kế bụ bẫm.",
+      "size": "50cm",
+      "soluong": 98,
+      "image": "pig.jpg"
+    },
+    {
+      "id": "BEARHT0016",
+      "name": "Gấu Bông Ngựa Kỳ Lân",
+      "price": 350000,
+      "description": "Ngựa kỳ lân đầy màu sắc, dễ thương và mềm mại.",
+      "size": "55cm",
+      "soluong": 200,
+      "image": "unicorn.webp"
+    },
+    {
+      "_id": "BEARHT0017",
+      "name": "Gấu Bông Gà Con",
+      "price": 260000,
+      "description": "Gà con nhỏ nhắn, thích hợp làm gấu ôm.",
+      "size": "40cm",
+      "soluong": 300,
+      "image": "chick.jpg"
+    },
+    {
+      "id": "BEARHT0018",
+      "name": "Gấu Bông Mèo Hoàng Thượng",
+      "price": 380000,
+      "description": "Mèo Hoàng Thượng lười biếng, biểu cảm hài hước.",
+      "size": "60cm",
+      "soluong": 135,
+      "image": "cat_hoangthuong.jpg"
+    },
+    {
+      "id": "BEARHT0019",
+      "name": "Gấu Bông Thỏ Trắng",
+      "price": 290000,
+      "description": "Chú thỏ trắng đáng yêu, lông mềm.",
+      "size": "50cm",
+      "soluong": 135,
+      "image": "pink_rabbit.webp"
+    },
+    {
+      "id": "BEARHT0020",
+      "name": "Gấu Bông Mèo Béo",
+      "price": 370000,
+      "description": "Mèo béo đáng yêu, chất liệu mềm mại.",
+      "size": "65cm",
+      "soluong": 135,
+      "image": "fat_cat.jpg"
+    },
+    {
+      "id": "BEARPK0001",
+      "name": "Gấu Bông Lông Xù",
+      "price": 300000,
+      "description": "Gấu bông lông xù siêu mềm, ôm ấm áp.",
+      "size": "60cm",
+      "soluong": 45,
+      "image": "fluffy_bear.jpg"
+    },
+    {
+      "id": "BEARPK0002",
+      "name": "Gấu Bông Siêu Nhân",
+      "price": 320000,
+      "description": "Gấu bông hóa thân thành siêu nhân cực ngầu.",
+      "size": "50cm",
+      "soluong": 33,
+      "image": "superhero_bear.jpg"
+    },
+    {
+      "id": "BEARPK0003",
+      "name": "Gấu Bông Dễ Thương",
+      "price": 280000,
+      "description": "Thiết kế đáng yêu phù hợp làm quà tặng.",
+      "size": "45cm",
+      "soluong": 27,
+      "image": "cute_bear.jpg"
+    },
+    {
+      "id": "BEARPK0004",
+      "name": "Gấu Bông Ánh Sao",
+      "price": 340000,
+      "description": "Gấu bông ánh sao với họa tiết lấp lánh.",
+      "size": "55cm",
+      "soluong": 20,
+      "image": "star_bear.jpg"
+    },
+    {
+      "id": "BEARPK0005",
+      "name": "Gấu Bông Cầu Vồng",
+      "price": 360000,
+      "description": "Màu sắc rực rỡ, nổi bật trong mọi không gian.",
+      "size": "65cm",
+      "soluong": 12,
+      "image": "rainbow_bear.jpg"
+    },
+    {
+      "id": "BEARHT0021",
+      "name": "Gấu Bông Cà Rốt",
+      "price": 290000,
+      "description": "Hình dáng củ cà rốt độc đáo, dễ thương.",
+      "size": "50cm",
+      "soluong": 66,
+      "image": "carrot_bear.jpg"
+    },
+    {
+      "id": "BEARHH0022",
+      "name": "Gấu Bông Kem Dâu",
+      "price": 310000,
+      "description": "Màu hồng pastel nhẹ nhàng như kem dâu.",
+      "size": "55cm",
+      "soluong": 42,
+      "image": "strawberry_bear.jpg"
+    },
+    {
+      "id": "BEARHT0023",
+      "name": "Gấu Bông Mặt Trăng",
+      "price": 350000,
+      "description": "Mang hình tượng mặt trăng mơ mộng.",
+      "size": "60cm",
+      "soluong": 21,
+      "image": "moon_bear.jpg"
+    },
+    {
+      "id": "BEARHH0024",
+      "name": "Gấu Bông Kẹo Ngọt",
+      "price": 300000,
+      "description": "Thiết kế như viên kẹo dễ thương, mềm mại.",
+      "size": "50cm",
+      "soluong": 88,
+      "image": "candy_bear.jpg"
+    },
+    {
+      "id": "BEARHT0025",
+      "name": "Gấu Bông Dưa Hấu",
+      "price": 270000,
+      "description": "Mang họa tiết dưa hấu tươi mát, đầy màu sắc.",
+      "size": "45cm",
+      "soluong": 38,
+      "image": "watermelon_bear.jpg"
+    }
+  ] 

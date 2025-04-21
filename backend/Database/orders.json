@@ -1,0 +1,61 @@
+[
+    {
+      "orderId": "ORD0001",
+      "userId": "USER001",
+      "products": [
+        { "productId": "BEARHT0001", "quantity": 2 },
+        { "productId": "BEARHT0010", "quantity": 1 }
+      ],
+      "totalPrice": 770000,
+      "status": "confirmed",
+      "createdAt": "2025-04-10T09:30:00Z",
+      "updatedAt": "2025-04-10T10:00:00Z"
+    },
+    {
+      "orderId": "ORD0002",
+      "userId": "USER002",
+      "products": [
+        { "productId": "BEARHH0005", "quantity": 1 }
+      ],
+      "totalPrice": 350000,
+      "status": "shipped",
+      "createdAt": "2025-04-12T14:20:00Z",
+      "updatedAt": "2025-04-13T08:00:00Z"
+    },
+    {
+      "orderId": "ORD0003",
+      "userId": "USER003",
+      "products": [
+        { "productId": "BEARHT0011", "quantity": 3 },
+        { "productId": "BEARHT0013", "quantity": 1 }
+      ],
+      "totalPrice": 1340000,
+      "status": "pending",
+      "createdAt": "2025-04-13T16:45:00Z",
+      "updatedAt": "2025-04-13T16:45:00Z"
+    },
+    {
+      "orderId": "ORD0004",
+      "userId": "USER001",
+      "products": [
+        { "productId": "BEARHH0007", "quantity": 1 },
+        { "productId": "BEARHH0008", "quantity": 2 }
+      ],
+      "totalPrice": 1060000,
+      "status": "delivered",
+      "createdAt": "2025-04-09T11:10:00Z",
+      "updatedAt": "2025-04-11T09:00:00Z"
+    },
+    {
+      "orderId": "ORD0005",
+      "userId": "USER004",
+      "products": [
+        { "productId": "BEARHT0020", "quantity": 1 }
+      ],
+      "totalPrice": 370000,
+      "status": "canceled",
+      "createdAt": "2025-04-14T07:15:00Z",
+      "updatedAt": "2025-04-14T09:30:00Z"
+    }
+  ]
+  

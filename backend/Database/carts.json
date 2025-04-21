@@ -1,0 +1,57 @@
+[
+    {
+      "cartId": "CART0001",
+      "userId": "USER001",
+      "products": [
+        { "productId": "BEARHT0002", "quantity": 1 },
+        { "productId": "BEARHH0003", "quantity": 2 }
+      ],
+      "totalPrice": 940000,
+      "createdAt": "2025-04-14T12:30:00Z",
+      "updatedAt": "2025-04-14T13:00:00Z"
+    },
+    {
+      "cartId": "CART0002",
+      "userId": "USER002",
+      "products": [
+        { "productId": "BEARHT0014", "quantity": 1 }
+      ],
+      "totalPrice": 290000,
+      "createdAt": "2025-04-14T14:10:00Z",
+      "updatedAt": "2025-04-14T14:10:00Z"
+    },
+    {
+      "cartId": "CART0003",
+      "userId": "USER003",
+      "products": [
+        { "productId": "BEARHT0012", "quantity": 3 },
+        { "productId": "BEARHT0016", "quantity": 1 }
+      ],
+      "totalPrice": 1120000,
+      "createdAt": "2025-04-12T09:00:00Z",
+      "updatedAt": "2025-04-13T10:20:00Z"
+    },
+    {
+      "cartId": "CART0004",
+      "userId": "USER004",
+      "products": [
+        { "productId": "BEARHT0019", "quantity": 2 }
+      ],
+      "totalPrice": 580000,
+      "createdAt": "2025-04-13T15:45:00Z",
+      "updatedAt": "2025-04-14T08:10:00Z"
+    },
+    {
+      "cartId": "CART0005",
+      "userId": "USER005",
+      "products": [
+        { "productId": "BEARHT0005", "quantity": 1 },
+        { "productId": "BEARHT0013", "quantity": 1 },
+        { "productId": "BEARHT0020", "quantity": 1 }
+      ],
+      "totalPrice": 1090000,
+      "createdAt": "2025-04-15T10:00:00Z",
+      "updatedAt": "2025-04-15T10:00:00Z"
+    }
+  ]
+  

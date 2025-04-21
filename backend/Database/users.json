@@ -1,0 +1,38 @@
+[
+    {
+      "id": "USER001",
+      "username": "Nguyen Van Muoi Hai",
+      "sdt": "0909123456",
+      "password": "pass123",
+      "diachi": "123 Lê Lợi, Quận 1, TP.HCM"
+    },
+    {
+      "id": "USER002",
+      "username": "Tran Cao Minh",
+      "sdt": "0911123456",
+      "password": "abc123",
+      "diachi": "45 Nguyễn Huệ, Quận 1, TP.HCM"
+    },
+    {
+      "id": "USER003",
+      "username": "Ly Nguyen Quynh Hoa",
+      "sdt": "0987654321",
+      "password": "hello2024",
+      "diachi": "22 Trần Hưng Đạo, Quận 5, TP.HCM"
+    },
+    {
+      "id": "USER004",
+      "username": "Tang Quynh Huong",
+      "sdt": "0939123456",
+      "password": "admin@123",
+      "diachi": "88 Phạm Văn Đồng, Thủ Đức, TP.HCM"
+    },
+    {
+      "id": "USER005",
+      "username": "Ly An Khang",
+      "sdt": "0978677271",
+      "password": "qwerty",
+      "diachi": "77 Nguyễn Thị Minh Khai, Quận 3, TP.HCM"
+    }
+  ]
+  

@@ -1,0 +1,48 @@
+[
+    {
+      "paymentId": "PAY0001",
+      "orderId": "ORD0001",
+      "userId": "USER001",
+      "amount": 940000,
+      "paymentMethod": "Credit Card",
+      "paymentStatus": "Completed",
+      "paymentDate": "2025-04-14T13:05:00Z"
+    },
+    {
+      "paymentId": "PAY0002",
+      "orderId": "ORD0002",
+      "userId": "USER002",
+      "amount": 290000,
+      "paymentMethod": "Momo",
+      "paymentStatus": "Completed",
+      "paymentDate": "2025-04-14T14:20:00Z"
+    },
+    {
+      "paymentId": "PAY0003",
+      "orderId": "ORD0003",
+      "userId": "USER003",
+      "amount": 1120000,
+      "paymentMethod": "Bank Transfer",
+      "paymentStatus": "Pending",
+      "paymentDate": "2025-04-13T10:25:00Z"
+    },
+    {
+      "paymentId": "PAY0004",
+      "orderId": "ORD0004",
+      "userId": "USER004",
+      "amount": 580000,
+      "paymentMethod": "Cash on Delivery",
+      "paymentStatus": "Unpaid",
+      "paymentDate": null
+    },
+    {
+      "paymentId": "PAY0005",
+      "orderId": "ORD0005",
+      "userId": "USER005",
+      "amount": 1090000,
+      "paymentMethod": "ZaloPay",
+      "paymentStatus": "Completed",
+      "paymentDate": "2025-04-15T10:15:00Z"
+    }
+  ]
+  
