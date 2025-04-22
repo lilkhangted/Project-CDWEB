@@ -1,7 +1,9 @@
 const express = require('express');
 const router = express.Router();
 const multer = require('multer');
+const path = require('path');
 const Product = require('../Models/Product');
+const generatedId = require('../Controllers/generateID');
 
 router.get('/', async (req, res) => {
   try {
@@ -12,65 +14,26 @@ router.get('/', async (req, res) => {
   }
 });
 
-// Cấu hình lưu ảnh với Multer
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
-    cb(null, "images/");
+    cb(null, "images/"); // thư mục images/
   },
   filename: function (req, file, cb) {
-    const uniqueSuffix = Date.now() + path.extname(file.originalname);
-    cb(null, file.fieldname + "-" + uniqueSuffix);
+    const ext = path.extname(file.originalname);
+    const filename = Date.now() + ext;
+    cb(null, filename);
   },
 });
 
 const upload = multer({ storage: storage });
 
-// ✅ HÀM TẠO PREFIX ID DỰA TRÊN CATEGORY
-function getPrefix(category) {
-  switch (category) {
-    case "Hình thú":
-      return "HT";
-    case "Hoạt hình":
-      return "HH";
-    case "Phụ kiện":
-      return "PK";
-    default:
-      return "SP";
-  }
-}
+/**
+ * 📌 Route lấy ID mới dựa theo category
+ * GET /api/products/next-id?category=Hình thú
+ */
+router.get("/next-id", generatedId.getNextProductId);
 
-// ✅ LẤY ID MỚI TỰ ĐỘNG
-router.get("/next-id", async (req, res) => {
-  const category = req.query.category;
-  if (!category) {
-    return res.status(400).json({ error: "Thiếu category" });
-  }
-
-  const prefix = getPrefix(category);
-
-  try {
-    const lastProduct = await Product.find({ id: new RegExp(`^${prefix}`) })
-      .sort({ id: -1 })
-      .limit(1);
-
-    let nextId;
-    if (lastProduct.length > 0) {
-      const lastIdNum = parseInt(lastProduct[0].id.replace(prefix, ""));
-      const newNum = (lastIdNum + 1).toString().padStart(4, "0");
-      nextId = `${prefix}${newNum}`;
-    } else {
-      nextId = `${prefix}0001`;
-    }
-
-    res.json({ id: nextId });
-  } catch (err) {
-    console.error("Lỗi tạo ID mới:", err);
-    res.status(500).json({ error: "Lỗi khi tạo ID mới" });
-  }
-});
-
-// ✅ THÊM SẢN PHẨM MỚI
-router.post("/", upload.single("image"), async (req, res) => {
+router.post("/create", upload.single("image"), async (req, res) => {
   try {
     const { id, name, category, price, size, soluong, description } = req.body;
 

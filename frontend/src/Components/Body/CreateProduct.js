@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import axios from "axios";
 
+const API_URL = process.env.REACT_APP_API_URL;
+
 function CreateProduct() {
   const [formData, setFormData] = useState({
     id: "",
@@ -24,7 +26,7 @@ function CreateProduct() {
     } else {
       setFormData({ ...formData, [name]: value });
 
-      if (name === "category") {
+      if (name === "category" && value) {
         fetchGeneratedId(value);
       }
     }
@@ -32,8 +34,7 @@ function CreateProduct() {
 
   const fetchGeneratedId = async (category) => {
     try {
-        const res = await axios.get(`/api/products/next-id?category=${encodeURIComponent(category)}`);
-
+      const res = await axios.get(`${API_URL}/products/next-id?category=${encodeURIComponent(category)}`);
       setGeneratedId(res.data.id);
       setFormData((prev) => ({ ...prev, id: res.data.id }));
     } catch (err) {
@@ -50,9 +51,10 @@ function CreateProduct() {
         data.append(key, formData[key]);
       }
 
-      const res = await axios.post("http://localhost:5000/api/products/create", data);
+      const res = await axios.post(`${API_URL}/products/create`, data);
       setMessage(`✔️ Tạo thành công: ${res.data.id}`);
 
+      // Reset form
       setFormData({
         id: "",
         name: "",
@@ -65,7 +67,7 @@ function CreateProduct() {
       });
       setGeneratedId("");
     } catch (err) {
-      console.error(err);
+      console.error("Lỗi khi tạo sản phẩm:", err);
       setMessage("❌ Tạo thất bại. Vui lòng kiểm tra lại.");
     }
   };

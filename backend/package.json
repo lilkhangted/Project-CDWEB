@@ -4,7 +4,8 @@
   "description": "projectK",
   "main": "db.js",
   "scripts": {
-    "test": "node index"
+    "test": "node index",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
